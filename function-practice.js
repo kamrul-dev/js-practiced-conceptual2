@@ -46,9 +46,34 @@
 
 // console.log(person.cardNumber[2]);
 
-var person1 = 'Kamrul'
-var hisAge = 22;
+//==============================================================
 
-var hisDetailes = `His name is ${person1}. He is ${hisAge} years old.`;
-console.log(hisDetailes);
+// var person1 = 'Kamrul'
+// var hisAge = 22;
+
+// var hisDetailes = `His name is ${person1}. He is ${hisAge} years old.`;
+// console.log(hisDetailes);
+
+//==================================================================
+
+
+// switch case
+
+var age = 18;
+
+switch(age){
+    case 40: 
+        console.log('getting old person');
+    break;
+    case 18:
+        console.log('young');
+    break;
+    case 10:
+        console.log('child');
+    break;
+    default:
+        console.log('I do not know');
+}
+
+console.log('I am out of switch');
 
