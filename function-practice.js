@@ -22,13 +22,27 @@
 // Write a function for a food delivery service that sells 'pizza' only. Easch pizza cost 10$. This funciton takes the food name & and quantity as parameter and then return a custom message with order info. This function should be smart enough to handle wrong parameter inputs.
 
 
-function pizzaPanda(foodName, quantity){
-    if(foodName.toLowerCase() != 'pizza'){
-        return "Sorry , We sell Pizza only";
-    }
-    var price = 10 * quantity;
-    var message = "Order successfull, order info : " + foodName + ", Price :" + price +  "$";
-    return message;
+// function pizzaPanda(foodName, quantity){
+//     if(foodName.toLowerCase() != 'pizza'){
+//         return "Sorry , We sell Pizza only";
+//     }
+//     var price = 10 * quantity;
+//     var message = "Order successfull, order info : " + foodName + ", Price :" + price +  "$";
+//     return message;
     
+// }
+// console.log(pizzaPanda('Pizza', 3));
+
+//=======================================================================
+
+var person = {
+    name: "Kamrul",
+    age: 25,
+    height: "5 feet 5 inches",
+    hariColor: 'Black',
+    male: true,
+    cardNumber: [213234, 324324, 324324]
 }
-console.log(pizzaPanda('Pizza', 3));
+
+console.log(person.cardNumber[2]);
+
