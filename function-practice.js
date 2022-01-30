@@ -35,14 +35,20 @@
 
 //=======================================================================
 
-var person = {
-    name: "Kamrul",
-    age: 25,
-    height: "5 feet 5 inches",
-    hariColor: 'Black',
-    male: true,
-    cardNumber: [213234, 324324, 324324]
-}
+// var person = {
+//     name: "Kamrul",
+//     age: 25,
+//     height: "5 feet 5 inches",
+//     hariColor: 'Black',
+//     male: true,
+//     cardNumber: [213234, 324324, 324324]
+// }
 
-console.log(person.cardNumber[2]);
+// console.log(person.cardNumber[2]);
+
+var person1 = 'Kamrul'
+var hisAge = 22;
+
+var hisDetailes = `His name is ${person1}. He is ${hisAge} years old.`;
+console.log(hisDetailes);
 
